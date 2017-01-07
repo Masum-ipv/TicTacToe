@@ -12,13 +12,13 @@ import javax.swing.LayoutStyle;
 /**
  * @author Bradley Chelsey
  */
-public class game extends JFrame {
-	public game() {
+public class playGround extends JFrame {
+	public playGround() {
 		initComponents();
 	}
 
 	private void button1ActionPerformed(ActionEvent e) {
-		// TODO add your code here
+            
 	}
 
 	private void button2ActionPerformed(ActionEvent e) {
@@ -215,12 +215,4 @@ public class game extends JFrame {
 	private JButton button8;
 	private JButton button9;
 	// JFormDesigner - End of variables declaration  //GEN-END:variables
-        
-        public static game board = new game();
-        
-        
-        public static void main(String[] args) {
-            if(board.isVisible()==false)
-                board.setVisible(true);
-    }
 }
