@@ -4,7 +4,7 @@ In order to make the game unbeatable, it was necessary to create an algorithm th
 # Installation
 Download the project
 ```sh
-$ https://github.com/Masum-ipv/TicTacToe.git
+$ git clone https://github.com/Masum-ipv/TicTacToe.git
 ```
 Run the project
 ```sh
